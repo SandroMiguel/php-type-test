@@ -1,0 +1,14 @@
+{
+    "name": "php-type-test",
+    "version": "1.0.0",
+    "packageManager": "yarn@3.3.1",
+    "config": {
+        "commitizen": {
+            "path": "cz-conventional-changelog",
+            "disableScopeLowerCase": true
+        }
+    },
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.3.0"
+    }
+}

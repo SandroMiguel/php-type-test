@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
-Tests for PhpType.
+Tests for [PhpType](https://github.com/SandroMiguel/php-type).
 
 ## Contributing
 

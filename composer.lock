@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f49cec50c6fa8557b1133e7433c3da45",
+    "content-hash": "259757fb644f208459c50043093e0ef1",
     "packages": [],
     "packages-dev": [
         {
@@ -3757,6 +3757,68 @@
                 "source": "https://github.com/fruux/sabre-event"
             },
             "time": "2021-11-04T06:51:17+00:00"
+        },
+        {
+            "name": "sandromiguel/php-type",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SandroMiguel/php-type.git",
+                "reference": "cdaf88d9df071dac6c62c43c188592763f39e73e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SandroMiguel/php-type/zipball/cdaf88d9df071dac6c62c43c188592763f39e73e",
+                "reference": "cdaf88d9df071dac6c62c43c188592763f39e73e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "nunomaduro/phpinsights": "^2.7",
+                "phan/phan": "^5.3",
+                "phpmetrics/phpmetrics": "^2.7.4",
+                "phpspec/phpspec": "^7.1.0",
+                "phpstan/phpstan": "^1.7.7",
+                "phpunit/phpunit": "^9",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "roave/security-advisories": "dev-master",
+                "vimeo/psalm": "^5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpType\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Miguel Marques",
+                    "email": "sandromiguel@sandromiguel.com",
+                    "homepage": "http://sandromiguel.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Validate PHP field values to ensure data integrity and suppress linter alerts.",
+            "homepage": "https://github.com/SandroMiguel/php-type",
+            "keywords": [
+                "field",
+                "library",
+                "php",
+                "php-library",
+                "type",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/SandroMiguel/php-type/issues",
+                "source": "https://github.com/SandroMiguel/php-type/tree/v1.0.0"
+            },
+            "time": "2023-11-29T16:22:30+00:00"
         },
         {
             "name": "sebastian/cli-parser",

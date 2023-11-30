@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/SandroMiguel/php-type-test/compare/v1.0.0...v1.1.0) (2023-11-30)
+
+
+### Features
+
+* **SomeClass.php:** demonstrate different approaches to type checking ([49dc3bb](https://github.com/SandroMiguel/php-type-test/commit/49dc3bbe1fc8a0fa61c4c27777e431f0c3b53a29))
+
 ## 1.0.0 (2023-11-29)
 
 

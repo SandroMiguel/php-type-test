@@ -26,7 +26,8 @@ class SomeClass
 
     /**
      * Some method with exception throwing for type mismatch.
-     * It also prevents linter warnings.
+     * Additionally, it prevents linter warnings but at the cost of being
+     *  more verbose.
      *
      * @param array<string,int|string> $someArray The array.
      *

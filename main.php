@@ -12,8 +12,6 @@ $someArray = [
 ];
 SomeClass::someMethodWithWarning($someArray);
 echo "===================\n";
-SomeClass::someMethodWithoutWarning($someArray);
-echo "===================\n";
 SomeClass::someMethodWithExceptions($someArray);
 echo "===================\n";
 SomeClass::someMethodWithPhpType($someArray);

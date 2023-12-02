@@ -25,32 +25,6 @@ class SomeClass
     }
 
     /**
-     * Some method with basic type checking to prevent linter warnings.
-     *
-     * @param array<string,int|string> $someArray The array.
-     */
-    public static function someMethodWithoutWarning(array $someArray): void
-    {
-        $someInt = $someArray['someInt'] ?? 0;
-        $someString = $someArray['someString'] ?? '';
-
-        // Basic type checking to prevent linter warnings.
-        // Default to 0 if not an int.
-        if (!\is_int($someInt)) {
-            $someInt = 0;
-        }
-
-        // Default to an empty string if not a string.
-        if (!\is_string($someString)) {
-            $someString = '';
-        }
-
-        $someEntity = new Entity($someInt, $someString);
-        echo $someEntity->getProperty1() . "\n";
-        echo $someEntity->getProperty2() . "\n";
-    }
-
-    /**
      * Some method with exception throwing for type mismatch.
      * It also prevents linter warnings.
      *
